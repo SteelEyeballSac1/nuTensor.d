@@ -1,7 +1,7 @@
 {
     "browser_specific_settings": {
         "gecko": {
-            "id": "nuTensor.d",
+            "id": "nuTensor.d@github.com",
             "strict_min_version": "60.0"
         }
     },
@@ -65,5 +65,5 @@
         },
         "open_at_install": false
     },
-    "version": "0.9.9"
+    "version": "0.1.0"
 }
