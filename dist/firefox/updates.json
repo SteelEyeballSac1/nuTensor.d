@@ -1,12 +1,12 @@
 {
  "addons": {
-  "nuTensor@geekprojects.com": {
+  "nuTensor.d@github.com": {
    "updates": [
     {
-     "version": "1.4.1.6",
+     "version": "0.1.0",
      "browser_specific_settings": { "gecko": { "strict_min_version": "56" } },
-     "update_info_url": "https://github.com/geekprojects/nuTensor/releases/tag/1.4.1b6",
-     "update_link": "https://github.com/geekprojects/nuTensor/releases/download/1.4.1b6/nuTensor_1.4.1b6.firefox.signed.xpi"
+     "update_info_url": "https://github.com/SteelEyeballSac1/nuTensor.d/releases/tag/v0.1.0-rc",
+     "update_link": "https://github.com/SteelEyeballSac1/nuTensor.d/releases/download/v0.1.0-rc/nuTensor.d_v0.1.0-rc.firefox.signed.xpi"
     }
    ]
   }
