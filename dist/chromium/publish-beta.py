@@ -16,11 +16,11 @@ import zipfile
 from distutils.version import StrictVersion
 from string import Template
 
-# - Download target (raw) uMatrix.chromium.zip from GitHub
+# - Download target (raw) nuTensor,d.chromium.zip from GitHub
 #   - This is referred to as "raw" package
 #   - This will fail if not a dev build
-# - Upload uMatrix.chromium.zip to Chrome store
-# - Publish uMatrix.chromium.zip to Chrome store
+# - Upload nuTensor.d.chromium.zip to Chrome store
+# - Publish nuTensor.d.chromium.zip to Chrome store
 
 # Find path to project root
 projdir = os.path.split(os.path.abspath(__file__))[0]
@@ -39,10 +39,10 @@ if not re.search('^\d+\.\d+\.\d+(b|rc)\d+$', version):
 
 cs_extension_id = 'eckgcipdkhcfghnmincccnhpdmnbefki'
 tmpdir = tempfile.TemporaryDirectory()
-raw_zip_filename = 'uMatrix_'+ version + '.chromium.zip'
+raw_zip_filename = 'nuTensor.d_'+ version + '.chromium.zip'
 raw_zip_filepath = os.path.join(tmpdir.name, raw_zip_filename)
-github_owner = 'gorhill'
-github_repo = 'uMatrix'
+github_owner = 'SteelEyeballSac1'
+github_repo = 'nuTensor.d'
 
 # Load/save auth secrets
 # The build directory is excluded from git
@@ -94,7 +94,7 @@ release_info = response.json()
 # Extract URL to raw package from metadata
 #
 
-# Find url for uMatrix.chromium.zip
+# Find url for nuTensor.d.chromium.zip
 raw_zip_url = ''
 for asset in release_info['assets']:
     if asset['name'] == raw_zip_filename:
