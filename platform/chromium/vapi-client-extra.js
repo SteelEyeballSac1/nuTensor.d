@@ -1,7 +1,7 @@
 /*******************************************************************************
 
-    uBlock Origin - a browser extension to block requests.
-    Copyright (C) 2019-present Raymond Hill
+    nuTensor.d - a browser extension to block requests.
+    Copyright (C) 2023-present SteelEyeballSac1
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see {http://www.gnu.org/licenses/}.
 
-    Home: https://github.com/gorhill/uBlock
+    Home: https://github.com/SteelEyeballSac1/nuTensor.d
 */
 
 // For non-background page
