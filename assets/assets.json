@@ -3,7 +3,7 @@
 		"content": "internal",
 		"updateAfter": 13,
 		"contentURL": [
-			"https://raw.githubusercontent.com/geekprojects/nuTensor/master/assets/assets.json",
+			"https://raw.githubusercontent.com/SteelEyeballSac1/nuTensor.d/master/assets/assets.json",
 			"assets/assets.json"
 		]
 	},
