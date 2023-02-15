@@ -1,11 +1,11 @@
 {
     "browser_specific_settings": {
         "gecko": {
-            "id": "nuTensor@geekprojects.com",
+            "id": "nuTensor.d",
             "strict_min_version": "60.0"
         }
     },
-    "author": "Raymond Hill",
+    "author": "SteelEyeballSac1",
     "background": {
         "page": "background.html"
     },
@@ -14,7 +14,7 @@
         "default_icon": {
             "19": "img/browsericons/icon19-off.png"
         },
-        "default_title": "nuTensor",
+        "default_title": "nuTensor.d",
         "default_popup": "popup.html"
     },
     "content_scripts": [
@@ -38,7 +38,7 @@
         "128": "img/icon_128.png"
     },
     "manifest_version": 2,
-    "name": "nuTensor",
+    "name": "nuTensor.d",
     "options_ui": {
       "page":"dashboard.html",
       "open_in_tab": true
@@ -55,7 +55,7 @@
         "webRequestBlocking",
         "<all_urls>"
     ],
-    "short_name": "nuTensor",
+    "short_name": "nuTensor.d",
     "sidebar_action": {
         "default_title": "__MSG_loggerPageName__",
         "default_panel": "logger-ui.html",
