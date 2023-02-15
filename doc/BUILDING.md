@@ -6,10 +6,11 @@ Tools:
 * bash
 * python 3
 
-You will need both this nuTensor.d and the nuAssets repositories. These should both be placed in the same directory:
+You will need both this nuTensor.d, the nuAssets.d, and the uAssets repositories. These should both be placed in the same directory:
 ```
-git clone https://github.com/geekprojects/nuAssets.git
+git clone https://github.com/SteelEyeballSac1/nuAssets.d.git
 git clone https://github.com/SteelEyeballSac1/nuTensor.d.git
+git clone https://github.com/uBlockOrigin/uAssets.git
 cd nuTensor.d
 ```
 
