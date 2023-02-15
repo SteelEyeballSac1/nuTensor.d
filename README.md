@@ -21,4 +21,4 @@ I do not guarantee that all sites will function out of the box. It is up to the 
 
 ## License
 
-<a href="https://github.com/gorhill/umatrix/blob/master/LICENSE.txt">GPLv3</a>.
+[GPLv3](LICENSE.txt).
