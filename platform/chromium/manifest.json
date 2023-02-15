@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "nuTensor",
-    "short_name": "nuTensor",
-    "version": "1.3.3.8",
+    "name": "nuTensor.d",
+    "short_name": "nuTensor.d",
+    "version": "v0.1.0-rc",
     "description": "__MSG_extShortDesc__",
     "icons": {
         "16": "img/icon_16.png",
@@ -12,10 +12,10 @@
         "default_icon": {
             "19": "img/browsericons/icon19-19.png"
         },
-        "default_title": "nuTensor",
+        "default_title": "nuTensor.d",
         "default_popup": "popup.html"
     },
-    "author": "Raymond Hill",
+    "author": "SteelEyeballSac1",
     "background": {
         "page": "background.html"
     },
@@ -34,7 +34,7 @@
         }
     ],
     "default_locale": "en",
-    "homepage_url": "https://github.com/geekprojects/nuTensor",
+    "homepage_url": "https://github.com/SteelEyeballSac1/nuTensor.d",
     "minimum_chrome_version": "45.0",
     "options_ui": {
         "page": "dashboard.html",

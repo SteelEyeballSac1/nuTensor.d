@@ -2,6 +2,6 @@
 #
 # This script assumes a linux environment
 
-echo "*** nuTensor(Chromium): Cleaning."
+echo "*** nuTensor.d: Cleaning."
 rm -R ./dist/build
-echo "*** nuTensor(Chromium): Cleaned."
+echo "*** nuTensor.d: Cleaned."
