@@ -13,19 +13,20 @@ cp ./assets/assets.json $DES/
 
 if [ -n "${TRAVIS_TAG}" ]; then
   pushd .. > /dev/null
-  git clone --depth 1 https://github.com/geekprojects/nuAssets.git
+  git clone --depth 1 https://github.com/uBlockOrigin/uAssets.git
+  git clone --depth 1 https://github.com/SteelEyeballSac1/nuAssets.git
   popd > /dev/null
 fi
 
 mkdir $DES/thirdparties
-cp -R ../nuAssets/thirdparties/hosts-file.net             $DES/thirdparties/
-cp -R ../nuAssets/thirdparties/mirror1.malwaredomains.com $DES/thirdparties/
-cp -R ../nuAssets/thirdparties/pgl.yoyo.org               $DES/thirdparties/
-cp -R ../nuAssets/thirdparties/publicsuffix.org           $DES/thirdparties/
-cp -R ../nuAssets/thirdparties/someonewhocares.org        $DES/thirdparties/
-cp -R ../nuAssets/thirdparties/winhelp2002.mvps.org       $DES/thirdparties/
-cp -R ../nuAssets/thirdparties/www.malwaredomainlist.com  $DES/thirdparties/
-mkdir $DES/umatrix
-cp -R ../nuAssets/recipes/*                               $DES/umatrix/
+cp -R ../uAssets/thirdparties/hosts-file.net             $DES/thirdparties/
+cp -R ../uAssets/thirdparties/mirror1.malwaredomains.com $DES/thirdparties/
+cp -R ../uAssets/thirdparties/pgl.yoyo.org               $DES/thirdparties/
+cp -R ../uAssets/thirdparties/publicsuffix.org           $DES/thirdparties/
+cp -R ../uAssets/thirdparties/someonewhocares.org        $DES/thirdparties/
+cp -R ../uAssets/thirdparties/winhelp2002.mvps.org       $DES/thirdparties/
+cp -R ../uAssets/thirdparties/www.malwaredomainlist.com  $DES/thirdparties/
+mkdir $DES/nuTensor.d
+cp -R ../nuAssets.d/recipes/*                               $DES/nuTensor.d/
 
 echo "done."
