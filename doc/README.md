@@ -30,8 +30,8 @@ Although nuTensor.d is a restartless addon, I found that **installing** a newer 
 - Launch Firefox
 - Drag and drop the previously downloaded `nuTensor.d.firefox.xpi` into Firefox
 
-nuTensor settings are kept intact even after you uninstall the addon.
+nuTensor.d settings are kept intact even after you uninstall the addon.
 
-On Linux, the settings are saved in a SQlite file located at `~/.mozilla/firefox/[profile name]/extension-data/nuTensor.sqlite`.
+On Linux, the settings files are located at `~/.mozilla/firefox/[profile name]/storage/default/moz-extension+++2c513fbe-162c-4878-9b4c-db7f4a693565/`.
 
-On Windows, the settings are saved in a SQlite file located at `%APPDATA%\Mozilla\Firefox\Profiles\[profile name]\extension-data\nuTensor.sqlite`.
+On Windows, the settings files are located at `%APPDATA%\Mozilla\Firefox\Profiles\[profile name]\storage\default\moz-extension+++2c513fbe-162c-4878-9b4c-db7f4a693565\`.
