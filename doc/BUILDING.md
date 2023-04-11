@@ -1,4 +1,4 @@
-## Building nuTensor
+## Building nuTensor.d
 
 ### Requirements
 
@@ -6,11 +6,11 @@ Tools:
 * bash
 * python 3
 
-You will need both this nuTensor and the nuAssets repositories. These should both be placed in the same directory:
+You will need both this nuTensor.d and the nuAssets.d repositories. These should both be placed in the same directory:
 ```
-git clone https://github.com/geekprojects/nuAssets.git
-git clone https://github.com/geekprojects/nuTensor.git
-cd nuTensor
+git clone https://github.com/SteelEyeballSac1/nuAssets.d.git
+git clone https://github.com/SteelEyeballSac1/nuTensor.d.git
+cd nuTensor.d
 ```
 
 ### Packaging
@@ -25,11 +25,6 @@ tools/make-firefox.sh all
 #### For Chrome/Chromium (Not yet tested)
 ```
 tools/make-chromium.sh all
-```
-
-#### For Opera (Not yet tested)
-```
-tools/make-opera.sh
 ```
 
 The installation package should now be found in dist/build/
